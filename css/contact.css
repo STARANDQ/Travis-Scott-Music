@@ -16,7 +16,7 @@
 
 .main__content__contact__2 {
     font-size: 15px;
-    color: dimgrey;
+    color: #dbdbdb;
 }
 
 .main__content__form {
@@ -33,16 +33,27 @@
     padding-left: 5px;
     width: 200px;
     outline: none;
-    border-top: solid 2px #ffffff;
-    border-left: solid 2px #ffffff;
-    border-right: solid 2px #ffffff;
-    border-bottom: solid 2px #000000;
+    border-top: solid 2px #5a5a5a;
+    border-left: solid 2px #5a5a5a;
+    border-right: solid 2px #5a5a5a;
+    border-bottom: solid 2px #ffffff;
+    background-color: #5a5a5a;
+    caret-color: white;
     transition: 0.3s;
 }
 
 .main__content__form__neta:hover {
-    border: solid 2px #000000;
+    border: solid 2px #ffffff;
     transition: 0.3s;
+}
+
+.main__content__form__neta:focus {
+    border: solid 2px #ffffff;
+    transition: 0.3s;
+}
+
+.main__content__form__neta::placeholder {
+    color: #dbdbdb;
 }
 
 .main__content__form__theme {
@@ -52,16 +63,27 @@
     padding-left: 5px;
     width: 420px;
     outline: none;
-    border-top: solid 2px #ffffff;
-    border-left: solid 2px #ffffff;
-    border-right: solid 2px #ffffff;
-    border-bottom: solid 2px #000000;
+    border-top: solid 2px #5a5a5a;
+    border-left: solid 2px #5a5a5a;
+    border-right: solid 2px #5a5a5a;
+    border-bottom: solid 2px #ffffff;
+    background-color: #5a5a5a;
+    caret-color: white;
     transition: 0.3s;
 }
 
 .main__content__form__theme:hover {
-    border: solid 2px #000000;
+    border: solid 2px #ffffff;
     transition: 0.3s;
+}
+
+.main__content__form__theme:focus {
+    border: solid 2px #ffffff;
+    transition: 0.3s;
+}
+
+.main__content__form__theme::placeholder {
+    color: #dbdbdb;
 }
 
 .main__content__form__message {
@@ -72,23 +94,34 @@
     padding-left: 5px;
     width: 420px;
     outline: none;
-    border-top: solid 2px #ffffff;
-    border-left: solid 2px #ffffff;
-    border-right: solid 2px #ffffff;
-    border-bottom: solid 2px #000000;
+    border-top: solid 2px #5a5a5a;
+    border-left: solid 2px #5a5a5a;
+    border-right: solid 2px #5a5a5a;
+    border-bottom: solid 2px #ffffff;
+    background-color: #5a5a5a;
+    caret-color: white;
     resize: none;
     transition: 0.3s;
 }
 
 .main__content__form__message:hover {
-    border: solid 2px #000000;
+    border: solid 2px #ffffff;
     transition: 0.3s;
+}
+
+.main__content__form__message:focus {
+    border: solid 2px #ffffff;
+    transition: 0.3s;
+}
+
+.main__content__form__message::placeholder {
+    color: #dbdbdb;
 }
 
 .main__content__form__button {
     grid-column: 1 / span 2;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-left: 10px;
     margin-top: 10px;
     width: 430px;
