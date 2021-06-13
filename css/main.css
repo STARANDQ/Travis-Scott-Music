@@ -9,10 +9,38 @@
 }
 
 .main__content img{
-    width:1000px;
+    width:50%;
     margin-bottom:200px;
     border-radius: 20px;
-    border: 1px solid #ff3737;
+    border: 2px solid #ff3737;
+    border-bottom: none;
+    box-shadow: #ff3737 0 0 20px 0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: animatedPhoto;
+}
+
+@keyframes animatedPhoto {
+    10%{
+        box-shadow: #ff3737 0 0 20px 0;
+        border-top: 2px solid #ff3737;
+        border-right: 2px solid #ff3737;
+        border-left: 2px solid #ff3737;
+    }
+
+    50%{
+        box-shadow: none;
+        border-top: 2px solid transparent;
+        border-left: 2px solid transparent;
+        border-right: 2px solid transparent;
+    }
+
+    100%{
+        box-shadow: #ff3737 0 0 20px 0;
+        border-top: 2px solid #ff3737;
+        border-right: 2px solid #ff3737;
+        border-left: 2px solid #ff3737;
+    }
 }
 
 .main__content h1{
@@ -27,7 +55,7 @@
 }
 
 .main__content__about__text-box {
-    background-color: #ff3737;
+    background-color: #141819fa;
     width: 25%;
     padding: 40px;
     text-align: left;
@@ -54,17 +82,17 @@
 }
 
 .main__content__about__text-box a{
-    text-decoration:none;
-    color:black;
-    border:1px solid black;
-    padding:10px;
-    border-radius:40px;
-    transition-property:color, background;
-    transition-duration:.5s;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #9b9b9b;
+    padding: 10px;
+    border-radius: 40px;
+    transition-property: color, background;
+    transition-duration: .5s;
 }
 
 .main__content__about__text-box a:hover{
-    color: #ff3737;
-    background: black;
+    color: #ffffff;
+    background: #313537;
     transition:.5s;
 }
