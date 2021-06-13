@@ -9,11 +9,12 @@ body {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: white;
-    background: center / contain no-repeat url('/img/bg_logo.png') #5a5a5a;
+    background-color: #5a5a5a;
 }
 
 .main {
-    background: center / contain no-repeat url('/img/bg_logo.png') #5a5a5a;
+    display: grid;
+    grid-template-rows: auto auto auto;
 }
 
 .main__header {
